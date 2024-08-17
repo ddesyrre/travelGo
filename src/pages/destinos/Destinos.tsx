@@ -164,14 +164,14 @@ export function destinos() {
 
     return (
         <Tabs value="html">
-            <TabsHeader className="py-8">
+            <TabsHeader className="py-8" children={undefined} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                 {data.map(({ label, value }) => (
-                    <Tab key={value} value={value}>
+                    <Tab key={value} value={value} children={undefined} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                         {label}
                     </Tab>
                 ))}
             </TabsHeader>
-            <TabsBody className="grid grid-cols-1 gap-4 ">
+            <TabsBody className="grid grid-cols-1 gap-4 " children={undefined} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                 {data.map(({ value, images }) => (
                     <TabPanel
                         className="grid grid-cols-2 gap-4 md:grid-cols-3"

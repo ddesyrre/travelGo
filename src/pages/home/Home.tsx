@@ -17,10 +17,10 @@ function Home() {
                     />
                     <figcaption className="absolute bottom-8 left-2/4 flex w-[calc(100%-4rem)] -translate-x-2/4 justify-between rounded-xl border border-white bg-white/75 py-4 px-6 shadow-lg shadow-black/5 saturate-200 backdrop-blur-sm">
                         <div>
-                            <Typography variant="h5" color="blue-gray" className="text-left italic uppercase bold">
+                            <Typography variant="h5" color="blue-gray" className="text-left italic uppercase bold" children={undefined} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                                 Airbnb ou hotel?
                             </Typography>
-                            <Typography color="gray" className="mt-2 font-normal">
+                            <Typography color="gray" className="mt-2 font-normal" children={undefined} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                                 Entenda qual opção funciona melhor para o seu estilo de viagem
                             </Typography>
                         </div>
@@ -35,10 +35,10 @@ function Home() {
                     />
                     <figcaption className="absolute bottom-8 left-2/4 flex w-[calc(100%-4rem)] -translate-x-2/4 justify-between rounded-xl border border-white bg-white/75 py-4 px-6 shadow-lg shadow-black/5 saturate-200 backdrop-blur-sm">
                         <div>
-                            <Typography variant="h5" color="blue-gray" className="text-left italic uppercase bold">
+                            <Typography variant="h5" color="blue-gray" className="text-left italic uppercase bold" children={undefined} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                                 Vale a pena viajar de cruzeiro?
                             </Typography>
-                            <Typography color="gray" className="mt-2 font-normal">
+                            <Typography color="gray" className="mt-2 font-normal" children={undefined} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                                 Dica: você não precisa ser fã do Roberto Carlos ou Neymar para aproveitar a viagem
                             </Typography>
                         </div>
@@ -54,10 +54,10 @@ function Home() {
                     />
                     <figcaption className="absolute bottom-8 left-2/4 flex w-[calc(100%-4rem)] -translate-x-2/4 justify-between rounded-xl border border-white bg-white/75 py-4 px-6 shadow-lg shadow-black/5 saturate-200 backdrop-blur-sm">
                         <div>
-                            <Typography variant="h5" color="blue-gray" className="text-left italic uppercase bold">
+                            <Typography variant="h5" color="blue-gray" className="text-left italic uppercase bold" children={undefined} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                                 Viagem de carro
                             </Typography>
-                            <Typography color="gray" className="mt-2 font-normal">
+                            <Typography color="gray" className="mt-2 font-normal" children={undefined} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                                 Não deixe a falta de planejamento ser um estepe no caminho
                             </Typography>
                         </div>
