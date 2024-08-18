@@ -1,5 +1,3 @@
-import { Typography } from "@material-tailwind/react";
-
 function Dicas() {
     return (
         <>
@@ -21,12 +19,10 @@ function Dicas() {
                         alt=""
                     />
                     <figcaption className="absolute bottom-8 left-2/4 flex w-[calc(100%-4rem)] -translate-x-2/4 justify-between rounded-xl border border-black/40 bg-white/75 py-4 px-6 shadow-xg shadow-black/5 saturate-200 backdrop-blur-sm">
-                        <div>
-
-                            <Typography color="gray" className="mt-2 font-normal">
+                        <div className="mt-2 font-normal">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt enim, eum, veritatis quos exercitationem vero
                                 officia libero molestias itaque neque molestiae numquam excepturi reprehenderit, quo voluptatem voluptatum blanditiis
-                                perferendis iusto?                            </Typography>
+                                perferendis iusto?                           
                         </div>
                     </figcaption>
                 </figure>
